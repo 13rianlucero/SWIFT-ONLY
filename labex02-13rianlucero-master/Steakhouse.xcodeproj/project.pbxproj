@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC20726D250411E600969C08 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20726C250411E600969C08 /* Order.swift */; };
+		EC20726F250418A500969C08 /* SteakSupply.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20726E250418A500969C08 /* SteakSupply.swift */; };
+		EC20727125041B9B00969C08 /* OrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20727025041B9B00969C08 /* OrderTests.swift */; };
+		EC2072772504205D00969C08 /* SteakSupplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2072762504205D00969C08 /* SteakSupplyTests.swift */; };
+		EC6718D025006CF4007995FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6718CF25006CF4007995FE /* AppDelegate.swift */; };
+		EC6718D225006CF4007995FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6718D125006CF4007995FE /* SceneDelegate.swift */; };
+		EC6718D425006CF4007995FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6718D325006CF4007995FE /* ViewController.swift */; };
+		EC6718D725006CF4007995FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6718D525006CF4007995FE /* Main.storyboard */; };
+		EC6718D925006CF7007995FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6718D825006CF7007995FE /* Assets.xcassets */; };
+		EC6718DC25006CF7007995FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6718DA25006CF7007995FE /* LaunchScreen.storyboard */; };
+		EC6718E725006CF7007995FE /* SteakhouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6718E625006CF7007995FE /* SteakhouseTests.swift */; };
+		EC6718F225006D0A007995FE /* Steak.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6718F125006D0A007995FE /* Steak.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6718E325006CF7007995FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6718C425006CF3007995FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6718CB25006CF3007995FE;
+			remoteInfo = Steakhouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC20726C250411E600969C08 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EC20726E250418A500969C08 /* SteakSupply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteakSupply.swift; sourceTree = "<group>"; };
+		EC20727025041B9B00969C08 /* OrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTests.swift; sourceTree = "<group>"; };
+		EC2072762504205D00969C08 /* SteakSupplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteakSupplyTests.swift; sourceTree = "<group>"; };
+		EC6718CC25006CF4007995FE /* Steakhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steakhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6718CF25006CF4007995FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC6718D125006CF4007995FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC6718D325006CF4007995FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC6718D625006CF4007995FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6718D825006CF7007995FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6718DB25006CF7007995FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6718DD25006CF7007995FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6718E225006CF7007995FE /* SteakhouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteakhouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6718E625006CF7007995FE /* SteakhouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteakhouseTests.swift; sourceTree = "<group>"; };
+		EC6718E825006CF7007995FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6718F125006D0A007995FE /* Steak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steak.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6718C925006CF3007995FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6718DF25006CF7007995FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6718C325006CF3007995FE = {
+			isa = PBXGroup;
+			children = (
+				EC6718CE25006CF4007995FE /* Steakhouse */,
+				EC6718E525006CF7007995FE /* SteakhouseTests */,
+				EC6718CD25006CF4007995FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6718CD25006CF4007995FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6718CC25006CF4007995FE /* Steakhouse.app */,
+				EC6718E225006CF7007995FE /* SteakhouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6718CE25006CF4007995FE /* Steakhouse */ = {
+			isa = PBXGroup;
+			children = (
+				EC6718CF25006CF4007995FE /* AppDelegate.swift */,
+				EC6718D125006CF4007995FE /* SceneDelegate.swift */,
+				EC6718D325006CF4007995FE /* ViewController.swift */,
+				EC6718D525006CF4007995FE /* Main.storyboard */,
+				EC6718D825006CF7007995FE /* Assets.xcassets */,
+				EC6718DA25006CF7007995FE /* LaunchScreen.storyboard */,
+				EC6718DD25006CF7007995FE /* Info.plist */,
+				EC6718F125006D0A007995FE /* Steak.swift */,
+				EC20726C250411E600969C08 /* Order.swift */,
+				EC20726E250418A500969C08 /* SteakSupply.swift */,
+			);
+			path = Steakhouse;
+			sourceTree = "<group>";
+		};
+		EC6718E525006CF7007995FE /* SteakhouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6718E625006CF7007995FE /* SteakhouseTests.swift */,
+				EC6718E825006CF7007995FE /* Info.plist */,
+				EC20727025041B9B00969C08 /* OrderTests.swift */,
+				EC2072762504205D00969C08 /* SteakSupplyTests.swift */,
+			);
+			path = SteakhouseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6718CB25006CF3007995FE /* Steakhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6718EB25006CF7007995FE /* Build configuration list for PBXNativeTarget "Steakhouse" */;
+			buildPhases = (
+				EC6718C825006CF3007995FE /* Sources */,
+				EC6718C925006CF3007995FE /* Frameworks */,
+				EC6718CA25006CF3007995FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Steakhouse;
+			productName = Steakhouse;
+			productReference = EC6718CC25006CF4007995FE /* Steakhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6718E125006CF7007995FE /* SteakhouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6718EE25006CF7007995FE /* Build configuration list for PBXNativeTarget "SteakhouseTests" */;
+			buildPhases = (
+				EC6718DE25006CF7007995FE /* Sources */,
+				EC6718DF25006CF7007995FE /* Frameworks */,
+				EC6718E025006CF7007995FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6718E425006CF7007995FE /* PBXTargetDependency */,
+			);
+			name = SteakhouseTests;
+			productName = SteakhouseTests;
+			productReference = EC6718E225006CF7007995FE /* SteakhouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6718C425006CF3007995FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = CSUF;
+				TargetAttributes = {
+					EC6718CB25006CF3007995FE = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					EC6718E125006CF7007995FE = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = EC6718CB25006CF3007995FE;
+					};
+				};
+			};
+			buildConfigurationList = EC6718C725006CF3007995FE /* Build configuration list for PBXProject "Steakhouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6718C325006CF3007995FE;
+			productRefGroup = EC6718CD25006CF4007995FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6718CB25006CF3007995FE /* Steakhouse */,
+				EC6718E125006CF7007995FE /* SteakhouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6718CA25006CF3007995FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6718DC25006CF7007995FE /* LaunchScreen.storyboard in Resources */,
+				EC6718D925006CF7007995FE /* Assets.xcassets in Resources */,
+				EC6718D725006CF4007995FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6718E025006CF7007995FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6718C825006CF3007995FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6718D425006CF4007995FE /* ViewController.swift in Sources */,
+				EC6718D025006CF4007995FE /* AppDelegate.swift in Sources */,
+				EC20726D250411E600969C08 /* Order.swift in Sources */,
+				EC6718F225006D0A007995FE /* Steak.swift in Sources */,
+				EC6718D225006CF4007995FE /* SceneDelegate.swift in Sources */,
+				EC20726F250418A500969C08 /* SteakSupply.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6718DE25006CF7007995FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC20727125041B9B00969C08 /* OrderTests.swift in Sources */,
+				EC2072772504205D00969C08 /* SteakSupplyTests.swift in Sources */,
+				EC6718E725006CF7007995FE /* SteakhouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6718E425006CF7007995FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6718CB25006CF3007995FE /* Steakhouse */;
+			targetProxy = EC6718E325006CF7007995FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6718D525006CF4007995FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6718D625006CF4007995FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6718DA25006CF7007995FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6718DB25006CF7007995FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6718E925006CF7007995FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC6718EA25006CF7007995FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6718EC25006CF7007995FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Steakhouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fullerton.edu.Steakhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC6718ED25006CF7007995FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Steakhouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fullerton.edu.Steakhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC6718EF25006CF7007995FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteakhouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fullerton.edu.SteakhouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steakhouse.app/Steakhouse";
+			};
+			name = Debug;
+		};
+		EC6718F025006CF7007995FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteakhouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fullerton.edu.SteakhouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steakhouse.app/Steakhouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6718C725006CF3007995FE /* Build configuration list for PBXProject "Steakhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6718E925006CF7007995FE /* Debug */,
+				EC6718EA25006CF7007995FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6718EB25006CF7007995FE /* Build configuration list for PBXNativeTarget "Steakhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6718EC25006CF7007995FE /* Debug */,
+				EC6718ED25006CF7007995FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6718EE25006CF7007995FE /* Build configuration list for PBXNativeTarget "SteakhouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6718EF25006CF7007995FE /* Debug */,
+				EC6718F025006CF7007995FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6718C425006CF3007995FE /* Project object */;
+}

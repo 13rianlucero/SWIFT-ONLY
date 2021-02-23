@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "unit test",
+      "setup": "",
+      "run": "cd $GITHUB_WORKSPACE; swift package init --name S223; mkdir -p Sources/Restaurant; mkdir -p Tests/RestaurantTests; cp Restaurant/Computation.swift Sources/Restaurant; cp RestaurantTests/RestaurantTests.swift Tests/RestaurantTests; sed -i.bak '26a\\ .target(\\   name: \"Restaurant\",\\   dependencies: []),\\ .testTarget(\\   name: \"RestaurantTests\",\\   dependencies: [\"Restaurant\"]),\\ ' Package.swift && rm *.bak; swift test --enable-test-discovery",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
